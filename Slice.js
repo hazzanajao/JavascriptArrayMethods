@@ -8,9 +8,8 @@ console.log(resultSliced)
 
 function reverse(){
     const myArray= [1,2,3,4,5]
-    for ( let i=0 ; i<= myArray.length; ++i){
-       let a = myArray.length
-        console.log(a)
-    }
+       let result = myArray.reverse()
+        console.log(result)
 }
+// Invocation or function call
 reverse()
