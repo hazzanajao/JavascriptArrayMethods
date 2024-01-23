@@ -57,3 +57,7 @@ myPriceList.filter(getPriceActual2)
 const actualPrice2 = myPriceList.filter(getPriceActual2)
 
 console.log("The actual price is " + actualPrice2 + ".  NB: Strict comparison was used as second option")
+
+const num = [ 2 , 4, 3, 9, 6, 8]
+const even = num.filter((x) =>(x % 2 ===0))
+console.log(even)

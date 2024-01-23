@@ -70,3 +70,14 @@ function getAllProducts( allProducts ){
 const productNames = products.map(getAllProducts)
 
 console.log("The products are : " + productNames)
+
+let myArrayMap = [ 1,2,3,4]
+const result = myArrayMap.map((x)=>(x * 2))
+console.log(result)
+
+ myArrayMap.forEach(
+     (x) => {
+         console.log(x*11)
+     }
+ )
+

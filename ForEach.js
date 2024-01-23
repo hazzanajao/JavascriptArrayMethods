@@ -40,3 +40,10 @@ myArray2.forEach(createMinus)
 
 console.log(" For verifications,  myArray2 elements are : " + myArray2 +" " + " Minus values are : " + myMinusArrayValues)
 console.log( myMinusArrayValues)
+
+myArray2.forEach(
+    function createMinus( x ) {
+        myMinusArrayValues.push( x - 1)
+    }
+)
+console.log(myMinusArrayValues)
